@@ -1,0 +1,23 @@
+welcome_message:
+	load s0, ascii_FF		; newline
+	output s0, uart_data_tx
+	call wait
+
+	load s0, mem_full
+	compare s0, 01
+	call z, mem_full_message
+
+	; custom message starts below
+
+	load s0, ascii_SPACE	
+	output s0, uart_data_tx
+	call wait
+	load s0, ascii_UNDER
+	output s0, uart_data_tx
+	call wait
+	load s0, ascii_UNDER
+	output s0, uart_data_tx
+	call wait
+	load s0, ascii_UNDER
+	output s0, uart_data_tx
+	call wait
