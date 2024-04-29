@@ -2663,867 +2663,866 @@ welcome_message:
 		LOAD s0, mem_full
 		COMPARE s0, 01
 		CALL Z, mem_full_message
-		
-		;; welcome!
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_TICK
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_VBAR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_BKSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_UNDER
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_FWDSLASH
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_A
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_u
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_t
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_h
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_s
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_COLON
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_J
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_h
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_n
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_G
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_a
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_z
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_n
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_MINUS
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_F
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_COMMA
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_S
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_g
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_i
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_F
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_l
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_s
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_R
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_d
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_r
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_i
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_g
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_u
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_z
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_COMMA
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_A
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_m
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_n
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_a
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_M
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_o
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_h
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_a
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_m
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_e
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_d
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_SPACE
-        OUTPUT s0, uart_data_tx
-        call wait
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        OUTPUT s0, uart_data_tx
-        LOAD s0, ascii_LF
-        OUTPUT s0, uart_data_tx
-        call wait
-        LOAD s0, ascii_CR
-        OUTPUT s0, uart_data_tx
-        call wait
+	LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_TICK
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_VBAR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_BKSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_UNDER
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_FWDSLASH
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_A
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_u
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_t
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_h
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_s
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_COLON
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_J
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_h
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_n
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_G
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_a
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_z
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_n
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_MINUS
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_F
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_COMMA
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_S
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_g
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_i
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_F
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_l
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_s
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_R
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_d
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_r
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_i
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_g
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_u
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_z
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_COMMA
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_A
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_m
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_n
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_a
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_M
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_o
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_h
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_a
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_m
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_e
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_d
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_SPACE
+OUTPUT s0, uart_data_tx
+call wait
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+OUTPUT s0, uart_data_tx
+LOAD s0, ascii_LF
+OUTPUT s0, uart_data_tx
+call wait
+LOAD s0, ascii_CR
+OUTPUT s0, uart_data_tx
+call wait
+
 
 
 		JUMP welcome_wait
