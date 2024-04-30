@@ -141,15 +141,15 @@ with open("welcome_message.txt", "w") as f:
             f.write(repeat_output)
 
 
-with open("main_menu.txt", "w") as f:
+# with open("main_menu.txt", "w") as f:
 
-    for i in main_menu_string:
-        buffer_in =f"LOAD s0, {mydict.get(i, i)}\n" \
-                   f"OUTPUT s0, uart_data_tx\n" \
-                   f"call wait\n"
+#     for i in main_menu_string:
+#         buffer_in =f"LOAD s0, {mydict.get(i, i)}\n" \
+#                    f"OUTPUT s0, uart_data_tx\n" \
+#                    f"call wait\n"
         
-        if buffer_out != buffer_in:
-            f.write(buffer_in)
-            buffer_out = buffer_in
-        else:
-            f.write(repeat_output)
+#         if buffer_out != buffer_in:
+#             f.write(buffer_in)
+#             buffer_out = buffer_in
+#         else:
+#             f.write(repeat_output)
