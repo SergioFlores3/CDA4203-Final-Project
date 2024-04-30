@@ -8,12 +8,11 @@ But we couln't get it to work, so we have to do it the hard way...
 """
 
 
-welcome_string = f"!@!@!@!@"\
-                 f"                    _       __     __                        !@"\
-                 f"                   | |     / /__  / /________  ____ ___  ___ !@"\
-                 f"                   | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \!@"\
-                 f"                   | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/!@"\
-                 f"                   |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/ !@"\
+welcome_string = f"  _       __     __                        !@"\
+                 f" | |     / /__  / /________  ____ ___  ___ !@"\
+                 f" | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \!@"\
+                 f" | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/!@"\
+                 f" |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/ !@"\
                  f"!@"                                                              \
                  f"    Authors: John Garzon-Ferrer, Sergio Flores Rodriguez, Ameena Mohammed       !@"
 
@@ -139,17 +138,3 @@ with open("welcome_message.txt", "w") as f:
             buffer_out = buffer_in
         else:
             f.write(repeat_output)
-
-
-# with open("main_menu.txt", "w") as f:
-
-#     for i in main_menu_string:
-#         buffer_in =f"LOAD s0, {mydict.get(i, i)}\n" \
-#                    f"OUTPUT s0, uart_data_tx\n" \
-#                    f"call wait\n"
-        
-#         if buffer_out != buffer_in:
-#             f.write(buffer_in)
-#             buffer_out = buffer_in
-#         else:
-#             f.write(repeat_output)

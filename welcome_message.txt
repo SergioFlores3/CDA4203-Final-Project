@@ -1,48 +1,6 @@
-LOAD s0, ascii_LF
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_CR
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_LF
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_CR
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_LF
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_CR
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_LF
-OUTPUT s0, uart_data_tx
-call wait
-LOAD s0, ascii_CR
-OUTPUT s0, uart_data_tx
-call wait
 LOAD s0, ascii_SPACE
 OUTPUT s0, uart_data_tx
 call wait
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
 OUTPUT s0, uart_data_tx
 LOAD s0, ascii_UNDER
 OUTPUT s0, uart_data_tx
@@ -106,24 +64,6 @@ call wait
 LOAD s0, ascii_SPACE
 OUTPUT s0, uart_data_tx
 call wait
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
 LOAD s0, ascii_VBAR
 OUTPUT s0, uart_data_tx
 call wait
@@ -215,24 +155,6 @@ call wait
 LOAD s0, ascii_SPACE
 OUTPUT s0, uart_data_tx
 call wait
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
 LOAD s0, ascii_VBAR
 OUTPUT s0, uart_data_tx
 call wait
@@ -358,24 +280,6 @@ call wait
 LOAD s0, ascii_SPACE
 OUTPUT s0, uart_data_tx
 call wait
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
 LOAD s0, ascii_VBAR
 OUTPUT s0, uart_data_tx
 call wait
@@ -501,24 +405,6 @@ call wait
 LOAD s0, ascii_SPACE
 OUTPUT s0, uart_data_tx
 call wait
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
-OUTPUT s0, uart_data_tx
 LOAD s0, ascii_VBAR
 OUTPUT s0, uart_data_tx
 call wait
